@@ -70,64 +70,6 @@ function IsIpAddressInRange {
 			[string] $fromAddress,
 			[string] $toAddress
 		)
-		
-	$ipAddress = $ipAddress.replace("001","1")
-	$ipAddress = $ipAddress.replace("002","2")
-	$ipAddress = $ipAddress.replace("003","3")
-	$ipAddress = $ipAddress.replace("004","4")
-	$ipAddress = $ipAddress.replace("005","5")
-	$ipAddress = $ipAddress.replace("006","6")
-	$ipAddress = $ipAddress.replace("007","7")
-	$ipAddress = $ipAddress.replace("008","8")
-	$ipAddress = $ipAddress.replace("009","9")
-	$ipAddress = $ipAddress.replace("01","1")
-	$ipAddress = $ipAddress.replace("02","2")
-	$ipAddress = $ipAddress.replace("03","3")
-	$ipAddress = $ipAddress.replace("04","4")
-	$ipAddress = $ipAddress.replace("05","5")
-	$ipAddress = $ipAddress.replace("06","6")
-	$ipAddress = $ipAddress.replace("07","7")
-	$ipAddress = $ipAddress.replace("08","8")
-	$ipAddress = $ipAddress.replace("09","9")
-
-	$fromAddress = $fromAddress.replace("001","1")
-	$fromAddress = $fromAddress.replace("002","2")
-	$fromAddress = $fromAddress.replace("003","3")
-	$fromAddress = $fromAddress.replace("004","4")
-	$fromAddress = $fromAddress.replace("005","5")
-	$fromAddress = $fromAddress.replace("006","6")
-	$fromAddress = $fromAddress.replace("007","7")
-	$fromAddress = $fromAddress.replace("008","8")
-	$fromAddress = $fromAddress.replace("009","9")
-	$fromAddress = $fromAddress.replace("01","1")
-	$fromAddress = $fromAddress.replace("02","2")
-	$fromAddress = $fromAddress.replace("03","3")
-	$fromAddress = $fromAddress.replace("04","4")
-	$fromAddress = $fromAddress.replace("05","5")
-	$fromAddress = $fromAddress.replace("06","6")
-	$fromAddress = $fromAddress.replace("07","7")
-	$fromAddress = $fromAddress.replace("08","8")
-	$fromAddress = $fromAddress.replace("09","9")
-
-	$toAddress = $toAddress.replace("001","1")
-	$toAddress = $toAddress.replace("002","2")
-	$toAddress = $toAddress.replace("003","3")
-	$toAddress = $toAddress.replace("004","4")
-	$toAddress = $toAddress.replace("005","5")
-	$toAddress = $toAddress.replace("006","6")
-	$toAddress = $toAddress.replace("007","7")
-	$toAddress = $toAddress.replace("008","8")
-	$toAddress = $toAddress.replace("009","9")
-	$toAddress = $toAddress.replace("01","1")
-	$toAddress = $toAddress.replace("02","2")
-	$toAddress = $toAddress.replace("03","3")
-	$toAddress = $toAddress.replace("04","4")
-	$toAddress = $toAddress.replace("05","5")
-	$toAddress = $toAddress.replace("06","6")
-	$toAddress = $toAddress.replace("07","7")
-	$toAddress = $toAddress.replace("08","8")
-	$toAddress = $toAddress.replace("09","9")
-
 	
 	#write-host "$ipAddress : $fromAddress => $toAddress"
 	$ErrorActionPreference = "SilentlyContinue"
@@ -146,4 +88,3 @@ function IsIpAddressInRange {
 	$from -le $ip -and $ip -le $to
 	$ErrorActionPreference = "Continue"
 }
-
